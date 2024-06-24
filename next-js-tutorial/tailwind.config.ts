@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      padding: {
+        "23rem": "23rem", // Adding custom padding-left value
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
